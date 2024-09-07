@@ -1,0 +1,8 @@
+version: '3'
+services:
+  frontend:
+    container_name: my-frontend-container
+    image: my-vite-react-app
+    ports:
+      - "3000:80"
+    restart: always
